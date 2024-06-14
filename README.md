@@ -1,3 +1,18 @@
+<table width="100%">
+  <tr>
+  <td width="25%" align="center">OBJ</td>
+  <td width="25%" align="center">USD</td>
+  <td width="25%" align="center">FBX</td>
+  <td width="25%" align="center">PLY</td>
+  </tr>
+  <tr>
+  <td width="25%"><img src="https://github.com/s3gf4u17/3dgeolab-MeshConverter/assets/86662946/665948c3-00a5-4be7-ba05-196ace597c3f"/></td>
+  <td width="25%"><img src="https://github.com/s3gf4u17/3dgeolab-MeshConverter/assets/86662946/bd0f2a7b-479b-4a9a-aea6-3f0b72e746b4"/></td>
+  <td width="25%"><img src="https://github.com/s3gf4u17/3dgeolab-MeshConverter/assets/86662946/7ad6d29c-b499-4a04-bcae-ce3a5beeb8c4"/></td>
+  <td width="25%"><img src="https://github.com/s3gf4u17/3dgeolab-MeshConverter/assets/86662946/a45ce56c-bf8b-4a4c-b6f3-95e43af7cac1"/></td>
+  </tr>
+</table>
+
 ## Spis treści
 
 - [Przygotowanie środowiska](#przygotowanie-środowiska)
