@@ -5,13 +5,13 @@
 
 ## Przygotowanie środowiska
 
-## Kompilacja narzędzi
+Instalacja biblioteki assimp:
 
-install dependencies
-
-```
+```bash
 sudo apt-get install libassimp-dev
 ```
+
+## Kompilacja narzędzi
 
 build
 
