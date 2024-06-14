@@ -1,5 +1,8 @@
 ## Spis treści
 
+- [Przygotowanie środowiska](#przygotowanie-środowiska)
+- [Kompilacja narzędzi](#kompilacja-narzędzi)
+- [Wykorzystanie narzędzi](#wykorzystanie-narzędzi)
 - [Licencje](#licencje)
     - [Assimp](#assimp)
 
