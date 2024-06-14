@@ -19,7 +19,7 @@ make build
 
 #### Assimp
 
-> [!ERROR]
+> [!CAUTION]
 > Wykorzystane pakiety: `assimp/postprocess.h`, `assimp/scene.h`, `assimp/Exporter.hpp`, `assimp/Importer.hpp`.
 
 ```
