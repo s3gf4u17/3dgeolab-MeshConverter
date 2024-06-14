@@ -19,6 +19,9 @@ make build
 
 #### Assimp
 
+> [!ERROR]
+> Wykorzystane pakiety: `assimp/postprocess.h`, `assimp/scene.h`, `assimp/Exporter.hpp`, `assimp/Importer.hpp`.
+
 ```
 Open Asset Import Library (assimp)
 
