@@ -53,7 +53,7 @@ Każdy z programów można uruchomić z wykorzystaniem tego samego schematu wywo
 <program> <plik wejsciowy> <plik wyjsciowy>
 ```
 
-Przykłád
+Przykład
 
 ```bash
 ./obj2ply data/nmt.obj data/nmt.ply
