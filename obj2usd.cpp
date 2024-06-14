@@ -4,7 +4,7 @@
 #include <assimp/scene.h>
 #include <assimp/postprocess.h>
 
-int main() {
+int main(int argc, char *argv[]) {
     // Create an instance of the Assimp importer
     Assimp::Importer importer;
 
@@ -18,14 +18,14 @@ int main() {
         aiProcess_GenNormals;             // Generate normals if missing
 
     // Load the OBJ file
-    const aiScene* scene = importer.ReadFile("nmt.obj", postProcessFlags);
+    const aiScene* scene = importer.ReadFile(argv[1], postProcessFlags);
     if (!scene || scene->mFlags & AI_SCENE_FLAGS_INCOMPLETE || !scene->mRootNode) {
         std::cerr << "Error: " << importer.GetErrorString() << std::endl;
         return 1;
     }
 
     // Create a USD file
-    std::ofstream usdFile("output.usd");
+    std::ofstream usdFile(argv[2]);
     if (!usdFile) {
         std::cerr << "Error: Unable to create output USD file." << std::endl;
         return 1;
