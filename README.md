@@ -3,6 +3,10 @@
 - [Licencje](#licencje)
     - [Assimp](#assimp)
 
+## Przygotowanie środowiska
+
+## Kompilacja narzędzi
+
 install dependencies
 
 ```
@@ -15,9 +19,11 @@ build
 make build
 ```
 
-### Licencje
+##
 
-#### Assimp
+## Licencje
+
+### Assimp
 
 > [!CAUTION]
 > Wykorzystane pakiety: `assimp/postprocess.h`, `assimp/scene.h`, `assimp/Exporter.hpp`, `assimp/Importer.hpp`.
