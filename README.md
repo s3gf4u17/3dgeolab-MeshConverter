@@ -23,6 +23,18 @@ g++ -o obj2fbx obj2fbx.cpp -lassimp
 
 ## Wykorzystanie narzędzi
 
+Każdy z programów można uruchomić z wykorzystaniem tego samego schematu wywołania:
+
+```bash
+<program> <plik wejsciowy> <plik wyjsciowy>
+```
+
+Przykłád
+
+```bash
+./obj2ply data/nmt.obj data/nmt.ply
+```
+
 ## Licencje
 
 ### Assimp
