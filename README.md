@@ -19,12 +19,18 @@ sudo apt-get install libassimp-dev
 Kompilacja każdego z narzędzi po kolei:
 
 ```bash
-g++ -o obj2usd obj2usd.cpp -lassimp
-g++ -o obj2ply obj2ply.cpp -lassimp
-g++ -o obj2fbx obj2fbx.cpp -lassimp
+g++ -o obj2usd obj2usd.cpp -O3 -lassimp
+g++ -o obj2ply obj2ply.cpp -O3 -lassimp
+g++ -o obj2fbx obj2fbx.cpp -O3 -lassimp
 ```
 
 ## Wykorzystanie narzędzi
+
+Na wstępie należy umożliwić uruchomienie programu (jeżeli został pobrany z github releases):
+
+```bash
+chmod a+wrx <program>
+```
 
 Każdy z programów można uruchomić z wykorzystaniem tego samego schematu wywołania:
 
