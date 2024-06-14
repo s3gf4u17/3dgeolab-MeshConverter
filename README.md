@@ -1,5 +1,8 @@
 ## Spis treści
 
+- [Licencje](#licencje)
+    - [Assimp](#assimp)
+
 install dependencies
 
 ```
